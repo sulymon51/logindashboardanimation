@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/ola/Documents/project/ridiudk/build/background_fetch/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/733257008ca62c5b6ddfd0e885c42d88/core-1.1.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/ola/Documents/project/ridiudk/build/background_fetch/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/0b123362cbbf9b07bbfb324886e6806e/appcompat-1.0.2/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/ola/Documents/project/ridiudk/build/background_fetch/intermediates/res/merged/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/0b123362cbbf9b07bbfb324886e6806e/appcompat-1.0.2/res/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/ola/Documents/project/ridiudk/build/background_fetch/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/0b123362cbbf9b07bbfb324886e6806e/appcompat-1.0.2/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/ola/Documents/project/ridiudk/build/background_fetch/intermediates/res/merged/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/0b123362cbbf9b07bbfb324886e6806e/appcompat-1.0.2/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/ola/Documents/project/ridiudk/build/background_fetch/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/0b123362cbbf9b07bbfb324886e6806e/appcompat-1.0.2/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]

@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/ola/Documents/project/ridiudk/build/workmanager/intermediates/res/merged/release/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/278e0deedbdae995aeaf3005e2d45ab6/work-runtime-2.3.4/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/ola/Documents/project/ridiudk/build/workmanager/intermediates/incremental/mergeReleaseResources/merged.dir/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/278e0deedbdae995aeaf3005e2d45ab6/work-runtime-2.3.4/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                }
+            ]
+        }
+    ]
+}

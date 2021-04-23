@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ola/Documents/project/ridiudk/build/google_api_availability/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/2409c66ecf18e1ecba73bcb2c23bca31/play-services-base-17.2.1/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/ola/Documents/project/ridiudk/build/google_api_availability/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/2409c66ecf18e1ecba73bcb2c23bca31/play-services-base-17.2.1/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/ola/Documents/project/ridiudk/build/google_api_availability/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/2409c66ecf18e1ecba73bcb2c23bca31/play-services-base-17.2.1/res/color/common_google_signin_btn_text_dark.xml"
+    }
+]

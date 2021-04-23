@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/ola/Documents/project/ridiudk/build/flutter_local_notifications/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/d45e4103af7d4156ca8a2d95d2ac8698/core-1.2.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/ola/Documents/project/ridiudk/build/flutter_local_notifications/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/d45e4103af7d4156ca8a2d95d2ac8698/core-1.2.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/ola/Documents/project/ridiudk/build/flutter_local_notifications/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/d45e4103af7d4156ca8a2d95d2ac8698/core-1.2.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/ola/Documents/project/ridiudk/build/flutter_local_notifications/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/d45e4103af7d4156ca8a2d95d2ac8698/core-1.2.0/res/drawable/notification_bg.xml"
+    }
+]

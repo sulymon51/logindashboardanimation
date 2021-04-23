@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:login_dash_animation/screens/ProfileScreen.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class HeaderWidget extends StatefulWidget {
   @override
@@ -6,8 +8,46 @@ class HeaderWidget extends StatefulWidget {
 }
 
 class _HeaderWidgetState extends State<HeaderWidget> {
+      final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+
   @override
   Widget build(BuildContext context) {
+    getCredential();
+    final drawerHeader = UserAccountsDrawerHeader(
+      accountName: Text('User Name'),
+      accountEmail: Text('user.name@email.com'),
+      currentAccountPicture: CircleAvatar(
+        child: FlutterLogo(size: 42.0),
+        backgroundColor: Colors.white,
+      ),
+      otherAccountsPictures: <Widget>[
+        CircleAvatar(
+          child: Text('A'),
+          backgroundColor: Colors.yellow,
+        ),
+        CircleAvatar(
+          child: Text('B'),
+          backgroundColor: Colors.red,
+        )
+      ],
+    );
+    final drawerItems = ListView(
+      children: <Widget>[
+        drawerHeader,
+        ListTile(
+          title: Text('To page 1'),
+          onTap: () => [],
+        ),
+        ListTile(
+          title: Text('To page 2'),
+          onTap: () =>[],
+        ),
+        ListTile(
+          title: Text('other drawer item'),
+          onTap: () {},
+        ),
+      ],
+    );
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 20),
       width: MediaQuery.of(context).size.width,
@@ -26,11 +66,16 @@ class _HeaderWidgetState extends State<HeaderWidget> {
         ]
       ),
       child: Row(
+        
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
-          Icon(Icons.menu, color: Color(0xFFF2c4e5e),size: 30),
-          profile()
+          Text('Hi,' + name, style: TextStyle(
+              color: Color(0xFFF2c4e5e),
+              fontWeight: FontWeight.bold
+            )),
+          // Icon(Icons.menu, color: Color(0xFFF2c4e5e),size: 30),
+        profile()
         ],
       ),
     );
@@ -44,13 +89,14 @@ class _HeaderWidgetState extends State<HeaderWidget> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.end,
           children: <Widget>[
-            Text("Alessa Quizon", style: TextStyle(
+            Text("Type", style: TextStyle(
               color: Color(0xFFF2c4e5e),
               fontWeight: FontWeight.bold
             )),
-            Text("Hawaii", style: TextStyle(
+            Text("" +type, style: TextStyle(
               color: Color(0xFFF1f94aa)
             )),
+            
             
           ],
         ),
@@ -63,9 +109,12 @@ class _HeaderWidgetState extends State<HeaderWidget> {
               color: Colors.red,
               shape: BoxShape.circle,
               image: DecorationImage(
-                image: AssetImage("assets/images/user_5.jpg"),
+                image: NetworkImage(profilepic),
                 fit: BoxFit.cover
-              )
+                
+              ),
+              
+
             ),
           )
 
@@ -73,5 +122,28 @@ class _HeaderWidgetState extends State<HeaderWidget> {
     );
 
   }
+ 
+  
+  SharedPreferences sharedPreferences;
+
+  String name = "", phone = "", email = "", profilepic="",  type = "";
+
+
+  getCredential() async {
+    sharedPreferences = await SharedPreferences.getInstance();
+
+    setState(() {
+      name = sharedPreferences.getString("name");
+      email= sharedPreferences.getString("email");
+      phone= sharedPreferences.getString("phone");
+      type= sharedPreferences.getString("type");
+      profilepic = sharedPreferences.getString("profilepic");
+    });
+  //  print(email);            
+
+  //  print(name);
+
+  }
+
 
 }

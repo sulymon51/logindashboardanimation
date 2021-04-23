@@ -1,0 +1,151 @@
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:295
+-keep class androidx.biometric.DeviceCredentialHandlerActivity { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:40
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:143
+-keep class androidx.core.content.FileProvider { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:309
+-keep class androidx.room.MultiInstanceInvalidationService { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:206
+-keep class androidx.work.impl.WorkManagerInitializer { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:235
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:245
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:265
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:255
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:285
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:274
+-keep class androidx.work.impl.background.systemalarm.RescheduleReceiver { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:213
+-keep class androidx.work.impl.background.systemalarm.SystemAlarmService { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:218
+-keep class androidx.work.impl.background.systemjob.SystemJobService { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:224
+-keep class androidx.work.impl.foreground.SystemForegroundService { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:230
+-keep class androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:49
+-keep class com.appz.ridesmyway.MainActivity { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:201
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:158
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:172
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:153
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:168
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:100
+-keep class com.google.firebase.auth.internal.FederatedSignInActivity { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:73
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:192
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:184
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:299
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:131
+-keep class com.transistorsoft.tsbackgroundfetch.BootReceiver { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:124
+-keep class com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:126
+-keep class com.transistorsoft.tsbackgroundfetch.FetchJobService { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:40
+-keep class io.flutter.app.FlutterApplication { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:118
+-keep class io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:108
+-keep class io.flutter.plugins.imagepicker.ImagePickerFileProvider { <init>(); }
+# Referenced at /Users/ola/Documents/project/ridiudk/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:138
+-keep class io.flutter.plugins.urllauncher.WebViewActivity { <init>(); }
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_alert_dialog_title_material.xml:57
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_popup_menu_item_layout.xml:17
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_list_menu_item_layout.xml:17
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_cascading_menu_item_layout.xml:20
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_screen_toolbar.xml:43
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_action_mode_bar.xml:19
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_alert_dialog_material.xml:18
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_alert_dialog_title_material.xml:45
+-keep class androidx.appcompat.widget.DialogTitle { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_screen_simple.xml:17
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_dialog_title_material.xml:22
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/21bb3697ed786bd48e626efdec55e794/ucrop-2.2.5/res/layout/ucrop_activity_photobox.xml:8
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_screen_toolbar.xml:36
+-keep class androidx.appcompat.widget.Toolbar { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_screen_simple.xml:25
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/d6e21c27f2644f45924f808ed961f0c3/appcompat-1.1.0/res/layout/abc_alert_dialog_material.xml:41
+-keep class androidx.core.widget.NestedScrollView { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/21bb3697ed786bd48e626efdec55e794/ucrop-2.2.5/res/layout/ucrop_view.xml:8
+-keep class com.yalantis.ucrop.view.GestureCropImageView { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/21bb3697ed786bd48e626efdec55e794/ucrop-2.2.5/res/layout/ucrop_view.xml:14
+-keep class com.yalantis.ucrop.view.OverlayView { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/21bb3697ed786bd48e626efdec55e794/ucrop-2.2.5/res/layout/ucrop_fragment_photobox.xml:25
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/21bb3697ed786bd48e626efdec55e794/ucrop-2.2.5/res/layout/ucrop_activity_photobox.xml:43
+-keep class com.yalantis.ucrop.view.UCropView { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/21bb3697ed786bd48e626efdec55e794/ucrop-2.2.5/res/layout/ucrop_aspect_ratio.xml:4
+-keep class com.yalantis.ucrop.view.widget.AspectRatioTextView { <init>(...); }
+
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/21bb3697ed786bd48e626efdec55e794/ucrop-2.2.5/res/layout/ucrop_layout_scale_wheel.xml:14
+# Referenced at /Users/ola/.gradle/caches/transforms-2/files-2.1/21bb3697ed786bd48e626efdec55e794/ucrop-2.2.5/res/layout/ucrop_layout_rotate_wheel.xml:16
+-keep class com.yalantis.ucrop.view.widget.HorizontalProgressWheelView { <init>(...); }
+

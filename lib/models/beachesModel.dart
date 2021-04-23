@@ -27,17 +27,6 @@ List<BeachesModel> beaches = [
     img: "assets/images/img_2.jpg",
     isActive: true
   ),
-  BeachesModel(
-    title: "What is Lorem",
-    desc: "Contrary to popular belief",
-    img: "assets/images/img_3.jpg",
-    isActive: true
-  ),
-  BeachesModel(
-    title: "Where does it",
-    desc: "Contrary to popular belief",
-    img: "assets/images/img_4.jpg",
-    isActive: false
-  )
+  
 
 ];

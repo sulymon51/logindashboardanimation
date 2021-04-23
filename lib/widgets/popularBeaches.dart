@@ -87,7 +87,7 @@ class PopularBeaches extends StatelessWidget {
                     SizedBox(width: 7),
                     beacheItemIcon(Icons.beach_access, "19°"),
                     SizedBox(width: 7),
-                    beacheItemIcon(Icons.brightness_low, "12 kts"),
+                    beacheItemIcon(Icons.brightness_low, "13 kts"),
                   ],
                 )
               ],

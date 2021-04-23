@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/ola/Documents/project/ridiudk/build/local_auth/intermediates/res/merged/release/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/b621f34023737e01b8d3e2d385027962/appcompat-1.1.0-rc01/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/ola/Documents/project/ridiudk/build/local_auth/intermediates/res/merged/release/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "/Users/ola/.gradle/caches/transforms-2/files-2.1/b621f34023737e01b8d3e2d385027962/appcompat-1.1.0-rc01/res/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">570339443173-emk54qa4li5c9bv8ubkekbsbeen678s3.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://ridezmyway-1529445546951.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">570339443173</string>
+    <string name="google_api_key" translatable="false">AIzaSyAY5BFDfRWm-UbsDBVwtMEQ7RYsevS-neU</string>
+    <string name="google_app_id" translatable="false">1:570339443173:android:584e0b7fbdf845762daf0c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAY5BFDfRWm-UbsDBVwtMEQ7RYsevS-neU</string>
+    <string name="google_storage_bucket" translatable="false">ridezmyway-1529445546951.appspot.com</string>
+    <string name="project_id" translatable="false">ridezmyway-1529445546951</string>
+</resources>

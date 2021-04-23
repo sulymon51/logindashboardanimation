@@ -7,10 +7,11 @@ class ButtonLoginAnimation extends StatefulWidget {
   final Color background;
   final Color borderColor;
   final Color fontColor;
+  final Function onPressed;
   final Function onTap;
   final Widget child;
 
-  const ButtonLoginAnimation({Key key, this.label, this.background, this.borderColor, this.fontColor, this.onTap, this.child}) : super(key: key);
+  const ButtonLoginAnimation({Key key, this.label, this.background, this.borderColor, this.fontColor, this.onTap, this.onPressed, this.child}) : super(key: key);
 
   @override
   _ButtonLoginAnimationState createState() => _ButtonLoginAnimationState();
